@@ -95,7 +95,7 @@ export function Hero({ onNavigate }: HeroProps) {
                 variant="outline" 
                 size="lg" 
                 onClick={() => onNavigate?.('contact')}
-                className="border-white/30 text-white hover:bg-white hover:text-gray-900 backdrop-blur-sm"
+                className="border-white/30 text-white bg-white text-gray-900 backdrop-blur-sm"
               >
                 <Play className="w-5 h-5 mr-2" />
                 Virtual Tour
